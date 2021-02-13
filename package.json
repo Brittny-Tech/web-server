@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Brittny.Tech web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brittny-Tech/web-server.git"
+  },
+  "author": "Brittny Lapierre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brittny-Tech/web-server/issues"
+  },
+  "homepage": "https://github.com/Brittny-Tech/web-server#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0"
+  }
+}
