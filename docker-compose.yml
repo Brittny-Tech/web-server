@@ -1,0 +1,13 @@
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
+    links: 
+      - redis
+    command:
+      sh -c 'npm i && node index.js'
